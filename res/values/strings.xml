@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hubba</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_twitsecond_screeen">Twitsecond_screeen</string>
+    <string name="title_activity_instasecond_screen">INSTAsecond_screen</string>
+    <string name="title_activity_fbsecond_screen">FBsecond_screen</string>
+
+</resources>
