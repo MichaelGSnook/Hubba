@@ -1,11 +1,15 @@
 package com.example.hubba;
 
+import android.view.KeyEvent;
 import android.view.View;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
 public class MainActivity extends Activity {
+	
+	private boolean insta = false;
+	
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,7 +18,7 @@ public class MainActivity extends Activity {
     }
     
     public void goInsta(View view) {
-		startActivity(new Intent(this, INSTAsecond_screen.class)); 
+    		startActivity(new Intent(this, INSTAsecond_screen.class));
 	}
     
     public void goTwit(View view) {
