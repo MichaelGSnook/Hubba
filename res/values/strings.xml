@@ -7,5 +7,12 @@
     <string name="title_activity_twitsecond_screeen">Twitsecond_screeen</string>
     <string name="title_activity_instasecond_screen">INSTAsecond_screen</string>
     <string name="title_activity_fbsecond_screen">FBsecond_screen</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Instagram">Instagram</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="edit_message">What\'s happening?</string>
+    <string name="button_send">Post</string>
+
 
 </resources>

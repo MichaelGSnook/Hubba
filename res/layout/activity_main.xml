@@ -12,6 +12,7 @@
 
     <ImageView
         android:id="@+id/dock"
+        android:contentDescription="@string/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -19,17 +20,8 @@
         android:src="@drawable/doc" />
 
     <ImageButton
-        android:id="@+id/twitButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/dock"
-        android:layout_centerHorizontal="true"
-        android:background="#00000000"
-        android:src="@drawable/ic_twit"
-        android:onClick="goTwit" />
-
-    <ImageButton
         android:id="@+id/fbButton"
+        android:contentDescription="@string/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/dock"
@@ -39,15 +31,26 @@
         android:src="@drawable/ic_fb"
         android:onClick="goFB" />
 
-    <ImageButton
-        android:id="@+id/instaButton"
+    <ImageView
+        android:id="@+id/redditButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/dock"
         android:layout_alignRight="@+id/dock"
-        android:layout_marginRight="15dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@string/app_name"
+        android:onClick="goRed"
+        android:src="@drawable/ic_reddit_red" />
+
+    <ImageButton
+        android:id="@+id/twitButton"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dock"
+        android:layout_centerHorizontal="true"
         android:background="#00000000"
-        android:src="@drawable/ic_insta"
-        android:onClick="goInsta" />
+        android:onClick="goTwit"
+        android:src="@drawable/ic_twit" />
 
 </RelativeLayout>
