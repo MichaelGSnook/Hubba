@@ -24,4 +24,6 @@ public class MainActivity extends Activity {
     public void goFB(View view) {
 		startActivity(new Intent(this, FBsecond_screen.class)); 
     }
+    
+    
 }

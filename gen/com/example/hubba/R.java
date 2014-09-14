@@ -1089,9 +1089,10 @@ containing a value of this type.
         public static final int ic_twit_banner=0x7f020060;
         public static final int ic_twit_tweet=0x7f020061;
         public static final int ic_twitter_logo=0x7f020062;
-        public static final int reddit_logo=0x7f020063;
-        public static final int splashscreen=0x7f020064;
-        public static final int twit_big_logo=0x7f020065;
+        public static final int isu=0x7f020063;
+        public static final int reddit_logo=0x7f020064;
+        public static final int splashscreen=0x7f020065;
+        public static final int twit_big_logo=0x7f020066;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1105,10 +1106,11 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050041;
+        public static final int action_settings=0x7f050043;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
+        public static final int button1=0x7f050041;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
@@ -1116,7 +1118,7 @@ containing a value of this type.
         public static final int disableHome=0x7f050008;
         public static final int dock=0x7f05003c;
         public static final int dropdown=0x7f05000f;
-        public static final int edit_message=0x7f050040;
+        public static final int editText1=0x7f050042;
         public static final int edit_query=0x7f050030;
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
@@ -1127,6 +1129,7 @@ containing a value of this type.
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
+        public static final int imageView1=0x7f050040;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int middle=0x7f050012;
@@ -1223,6 +1226,7 @@ containing a value of this type.
         public static final int main=0x7f0c0002;
         public static final int splash=0x7f0c0003;
         public static final int twitsecond_screeen=0x7f0c0004;
+        public static final int twitthird_screen=0x7f0c0005;
     }
     public static final class string {
         public static final int Facebook=0x7f0a0014;
@@ -1277,6 +1281,7 @@ containing a value of this type.
         public static final int title_activity_instasecond_screen=0x7f0a0011;
         public static final int title_activity_splash=0x7f0a0016;
         public static final int title_activity_twitsecond_screeen=0x7f0a0010;
+        public static final int title_activity_twitthird_screen=0x7f0a0019;
     }
     public static final class style {
         /** 

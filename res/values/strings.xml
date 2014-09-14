@@ -13,6 +13,6 @@
     <string name="title_activity_splash">Splash</string>
     <string name="edit_message">What\'s happening?</string>
     <string name="button_send">Post</string>
-
+    <string name="title_activity_twitthird_screen">Twitthird_screen</string>
 
 </resources>

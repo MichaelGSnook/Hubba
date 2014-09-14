@@ -7,9 +7,11 @@
     <uses-sdk
         android:minSdkVersion="9"
         android:targetSdkVersion="21" />
-		<uses-permission android:name="android.permission.INTERNET" /> 
-		<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-		<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -39,6 +41,10 @@
         <activity
             android:name=".Splash"
             android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".Twitthird_screen"
+            android:label="@string/title_activity_twitthird_screen" >
         </activity>
     </application>
 

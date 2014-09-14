@@ -53,4 +53,13 @@
         android:onClick="goTwit"
         android:src="@drawable/ic_twit" />
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/isu" />
+
 </RelativeLayout>
